@@ -21,7 +21,7 @@ class MainTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("someone like data"))
+                .body("data", equalTo("someone like you"))
         ;
     }
 }
